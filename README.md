@@ -44,7 +44,7 @@ The project is setup in 3 repos (not all teams will have write access to all of 
     ```bash
     oc apply -f operators/argocd-cr.yaml
     ```
-    and waut for the argocd server Pod to be running
+    and wait for the argocd server Pod to be running
     ```
     oc get pods -n argocd -l app.kubernetes.io/name=example-argocd-server
     ```
